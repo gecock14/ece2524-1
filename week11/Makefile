@@ -17,3 +17,6 @@ main: ${OBJ}
 
 clean:
 	-rm *.o *.d *~
+
+archive:
+	tar -cvzf archive.tar.gz *.cpp *.h Makefile README
